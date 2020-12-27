@@ -17,21 +17,21 @@ function randomQuote() {
 
 function randomColor() {
     var colors = [
-        '#1DD3B0',
-        '#8C5383',
-        '#B8B3E9',
-        '#4A5899',
-        '#FFD400',
-        '#393E41',
-        '#F06543',
-        '#00A878',
-        '#EADEDA',
-        '#1E2019',
-        '#EFF8E2',
-        '#C94277',
-        '#00100B',
-        '#ADA8B6',
-        '#2F0A28'
+        '#D6EFFF',
+        '#FFF275',
+        '#D56AA0',
+        '#F42C04',
+        '#77CBB9',
+        '#7CFEF0',
+        '#6BFFB8',
+        '#F3E8EE',
+        '#DB504A',
+        '#E3B505',
+        '#96F550',
+        '#3C91E6',
+        '#EED2CC',
+        '#97F9F9',
+        '#C33C54'
     ];
     var choosedColor = colors[(Math.floor(Math.random() * 16))];
     return choosedColor;
