@@ -43,6 +43,6 @@ $(function () {
 });
 
 $("#newQuote").click(function () {
-    $('body').css({'background': randomColor(), 'transition': 'all linear 0.2s'});
+    $('.quoteArea').css({'color': randomColor(), 'transition': 'all linear 0.2s'});
     randomQuote();
 });
